@@ -1,0 +1,51 @@
+
+html,
+body {
+    height: 100%;
+	background: url('img/shop.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+}
+
+
+#imagebackground{
+     background: url('img/img1.jpg') center no-repeat;
+	 background-size: cover;
+     max-width:100%
+    color: white;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#imagebackground #maintext{
+	font-family: 'BioRhyme Expanded', serif;
+    font-size: 2.4rem;
+    font-weight: 200;
+     background:rgba(0,0,0,0.5);
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    padding:20px;
+    text-transform: uppercase;
+}
+#imagespart{
+	margin-top:50px;
+	}
+
+	.zoom:hover img{
+		 -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.8);
+  transform: scale(1.1);
+	}
+	
+img{
+	padding:10px;
+	
+    max-width: 100%;
+}
+
